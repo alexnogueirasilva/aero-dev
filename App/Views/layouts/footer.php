@@ -7,6 +7,7 @@
 <script src="http://<?php echo APP_HOST; ?>/public/assets/bundles/sparkline.bundle.js"></script> <!-- Sparkline Plugin Js -->
 <script src="http://<?php echo APP_HOST; ?>/public/assets/bundles/c3.bundle.js"></script>
 <script src="http://<?php echo APP_HOST; ?>/public/assets/bundles/mainscripts.bundle.js"></script>
+<script src="http://<?php echo APP_HOST; ?>/public/assets/js/pages/index.js"></script>
 <script src="http://<?php echo APP_HOST; ?>/public/js/autocomplete-tecnologia.js"></script> 
 </body>
 </html>
