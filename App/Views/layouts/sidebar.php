@@ -311,13 +311,13 @@
                                 <ul class="list-unstyled team-info">
                                     <li class="m-r-15"><small>Team</small></li>
                                     <li>
-                                        <img src="assets/images/xs/avatar2.jpg" alt="Avatar">
+                                        <img src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar2.jpg" alt="Avatar">
                                     </li>
                                     <li>
-                                        <img src="assets/images/xs/avatar3.jpg" alt="Avatar">
+                                        <img src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar3.jpg" alt="Avatar">
                                     </li>
                                     <li>
-                                        <img src="assets/images/xs/avatar4.jpg" alt="Avatar">
+                                        <img src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar4.jpg" alt="Avatar">
                                     </li>                            
                                 </ul>
                             </div>
@@ -333,19 +333,19 @@
                                 <ul class="list-unstyled team-info">
                                     <li class="m-r-15"><small>Team</small></li>
                                     <li>
-                                        <img src="assets/images/xs/avatar10.jpg" alt="Avatar">
+                                        <img src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar10.jpg" alt="Avatar">
                                     </li>
                                     <li>
-                                        <img src="assets/images/xs/avatar9.jpg" alt="Avatar">
+                                        <img src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar9.jpg" alt="Avatar">
                                     </li>
                                     <li>
-                                        <img src="assets/images/xs/avatar8.jpg" alt="Avatar">
+                                        <img src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar8.jpg" alt="Avatar">
                                     </li>
                                     <li>
-                                        <img src="assets/images/xs/avatar7.jpg" alt="Avatar">
+                                        <img src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar7.jpg" alt="Avatar">
                                     </li>
                                     <li>
-                                        <img src="assets/images/xs/avatar6.jpg" alt="Avatar">
+                                        <img src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar6.jpg" alt="Avatar">
                                     </li>
                                 </ul>
                             </div>
@@ -361,13 +361,13 @@
                                 <ul class="list-unstyled team-info">
                                     <li class="m-r-15"><small>Team</small></li>
                                     <li>
-                                        <img src="assets/images/xs/avatar5.jpg" alt="Avatar">
+                                        <img src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar5.jpg" alt="Avatar">
                                     </li>
                                     <li>
-                                        <img src="assets/images/xs/avatar2.jpg" alt="Avatar">
+                                        <img src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar2.jpg" alt="Avatar">
                                     </li>
                                     <li>
-                                        <img src="assets/images/xs/avatar7.jpg" alt="Avatar">
+                                        <img src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar7.jpg" alt="Avatar">
                                     </li>                            
                                 </ul>
                             </div>
@@ -467,7 +467,7 @@
                         <li class="online">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar4.jpg" alt="">
+                                    <img class="media-object " src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar4.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Sophia <small class="float-right">11:00AM</small></span>
                                         <span class="message">There are many variations of passages of Lorem Ipsum available</span>
@@ -479,7 +479,7 @@
                         <li class="online">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar5.jpg" alt="">
+                                    <img class="media-object " src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar5.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Grayson <small class="float-right">11:30AM</small></span>
                                         <span class="message">All the Lorem Ipsum generators on the</span>
@@ -491,7 +491,7 @@
                         <li class="offline">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar2.jpg" alt="">
+                                    <img class="media-object " src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar2.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Isabella <small class="float-right">11:31AM</small></span>
                                         <span class="message">Contrary to popular belief, Lorem Ipsum</span>
@@ -503,7 +503,7 @@
                         <li class="me">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar1.jpg" alt="">
+                                    <img class="media-object " src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar1.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">John <small class="float-right">05:00PM</small></span>
                                         <span class="message">It is a long established fact that a reader</span>
@@ -515,7 +515,7 @@
                         <li class="online">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar3.jpg" alt="">
+                                    <img class="media-object " src="http://<?php echo APP_HOST; ?>/public/assets/images/xs/avatar3.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Alexander <small class="float-right">06:08PM</small></span>
                                         <span class="message">Richard McClintock, a Latin professor</span>
