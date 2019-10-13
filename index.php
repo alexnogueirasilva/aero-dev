@@ -9,7 +9,7 @@ error_reporting(E_ALL & ~E_NOTICE);
 
 require_once("vendor/autoload.php");
 
-define('APP_HOST'       , $_SERVER['HTTP_HOST'] . "/mvc-fabmed");
+define('APP_HOST'       , $_SERVER['HTTP_HOST'] . "/aero-dev");
 define('PATH'           , realpath('./'));        
 
 try {

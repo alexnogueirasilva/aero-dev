@@ -19,11 +19,14 @@ class Erro
     {
         $errorMessage = $this->message;
         $errorCode = $this->code;
-
-        require_once PATH  . '/App/Views/layouts/head.php';
-        require_once PATH  . '/App/Views/layouts/header.php';
-        require_once PATH  . '/App/Views/layouts/sidebar.php';
-        require_once PATH  . '/App/Views/error/erro.php';
-        require_once PATH  . '/App/Views/layouts/footer.php';
+    
+        $varMessage = $this->message;
+    
+        if(file_exists(PATH . "/App/Views/error/".$this->code.".php")){
+            require_once PATH . "/App/Views/error/".$this->code.".php";
+        }else{
+            require_once PATH . "/App/Views/error/500.php";
+        }
+        exit;
     }
 }

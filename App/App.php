@@ -17,7 +17,7 @@ class App
 
     public function __construct()
     {     
-        $this->setHost($_SERVER['HTTP_HOST'] . "/mvc-fabmed");
+        $this->setHost($_SERVER['HTTP_HOST'] . "/aero-dev");
         $this->setPath(realpath('./'));
         $this->url();
     }

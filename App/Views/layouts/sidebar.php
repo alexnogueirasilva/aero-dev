@@ -530,3 +530,5 @@
         </div>
     </div>
 </aside>
+<!-- Main Content-->
+<section class="content">

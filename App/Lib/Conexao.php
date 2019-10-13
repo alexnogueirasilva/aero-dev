@@ -19,12 +19,12 @@ class Conexao
     {
 
         $driver = "mysql";
-        $host = "localhost";
-        $db_name = "devmedia";
+        $host = "localhost:3309";
+        $db_name = "fabmedteste";
         $pdoConfig = $driver . ":" . "host=" . $host . ";";
         $pdoConfig .= "dbname=" . $db_name . ";";
         $usuario = "root";
-        $senha = "root";
+        $senha = "";
 
         try {
             if (self::$connection === null) {

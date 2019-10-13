@@ -27,7 +27,18 @@ abstract class Controller
         require_once $this->app->getPath() . '/App/Views/' . $view . '.php';
         require_once $this->app->getPath() . '/App/Views/layouts/footer.php';
     }
-
+    
+    public function renderLogin($view)
+    {
+        $viewVar    = $this->getViewVar();
+        $Sessao     = Sessao::class;
+        
+        require_once $this->app->getPath() . '/App/Views/layouts/header.php';
+        require_once $this->app->getPath() . '/App/Views/' . $view . '.php';
+        require_once $this->app->getPath() . '/App/Views/layouts/footer.php';
+    }
+    
+    
     public function redirect($view)
     {
         header('Location: http://' . $this->app->getHost() . $view);
