@@ -20,7 +20,7 @@ class Conexao
 
         $driver = "mysql";
         $host = "localhost:3309";
-        $db_name = "fabmedteste";
+        $db_name = "fabmed";
         $pdoConfig = $driver . ":" . "host=" . $host . ";";
         $pdoConfig .= "dbname=" . $db_name . ";";
         $usuario = "root";
